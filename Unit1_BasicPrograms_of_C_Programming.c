@@ -1,6 +1,8 @@
 //as usual, any programming language starts off with our Fav. Hello, World
 printf("Hello, World");
 
+//_________________________________________________________________________________________________________________________________________________________________
+
 //addition of 2 numbers
 int a,b;
 printf("Enter the value of 'a' :");
@@ -9,6 +11,7 @@ printf("Enter the value of 'b' :");
 scanf("%i\n",&b);
 printf("the sum of 'a' and 'b' is : %i",a+b);//same follows for - , *, / and %(mod)
 
+//_________________________________________________________________________________________________________________________________________________________________
 
 //swapping of 2 numbers
 
