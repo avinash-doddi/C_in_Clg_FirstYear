@@ -10,6 +10,8 @@ scanf("%i",&b);
 printf("the area of rectangle is %i\n",l*b);
 printf("the perimeter of rectangle is %i",2*(l+b));
 
+//__________________________________________________________________________________________________________________________________________________________________
+
 //b) Write a C program to Calclate Distance Between 2 points
 
 //#include<math.h> must use this to import sqrt()
@@ -22,6 +24,7 @@ distance = sqrt(pow(x2-x1, 2)+pow(y2-y1, 2));
 printf("the distance between two points is %.2f",distance);
 return 0;
 
+//__________________________________________________________________________________________________________________________________________________________________
 
 //c) Write  a C program to Simulate 3 Laws of Motion
 
