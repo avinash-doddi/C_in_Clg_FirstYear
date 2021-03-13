@@ -35,7 +35,7 @@ else
 //_________________________________________________________________________________________________________________________________________________________________
 
 
-/* 3)Write a menu driven program to calculate the area's of different Geomentrical Shapes */
+// 3)Write a menu driven program to calculate the area's of different Geomentrical Shapes
 
 //logic
 
