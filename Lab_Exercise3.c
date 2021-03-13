@@ -37,7 +37,7 @@ else
 
 // 3)Write a menu driven program to calculate the area's of different Geomentrical Shapes
 
-//logic
+/*logic*/
 
 int h,b,l,r,side;  char choice;  float area;
 printf("Enter 'c' to calculate the area of Cirle\n");
