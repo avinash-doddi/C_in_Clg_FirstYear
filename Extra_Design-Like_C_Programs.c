@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 int main()
-{                                //   a code to get * in rectangle shape (vertically)
+{                                //   a code to get * in rectangle shape (vertically down..)
 for (int x=0;x<10;x++)
     {
         for (int y = 0;y<10;y++)
@@ -13,6 +13,6 @@ for (int x=0;x<10;x++)
                     printf(" ");
             }
             printf("\n");
-    }
-
+   }
+getch();
 }
