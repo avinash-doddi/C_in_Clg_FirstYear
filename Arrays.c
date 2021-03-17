@@ -97,7 +97,7 @@ int main()
 
 //_________________________________________________________________________________________________________________________________________________________________
 
-// 3) Write a Program to Transverse a array:
+// 3) Write a Program to Transpose a array: ( Interchanges the values in Rows to Columns and Vice-versa ) 
 
 
 #include<stdio.h>
@@ -124,7 +124,8 @@ printf("give the no.of inputs the arrays has to take (No more than 50) :"); scan
     }
   printf("\n");
  }
- 
+
+ // program to Print out the transposed Values..
 printf("\n");  printf("The transverse of a[][] is : \n");
    for (int i = 0; i<num ; i++)
  {
@@ -134,10 +135,12 @@ printf("\n");  printf("The transverse of a[][] is : \n");
     }
   printf("\n");
  }
-getch();
+getch(); //we seldom need this when runningg this code in IDE's.. 
 return 0;
 }
 
 
 //_________________________________________________________________________________________________________________________________________________________________
 
+/*Run this*/
+print("\U0001F605")  //python though.. ;P
