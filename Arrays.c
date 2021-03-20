@@ -32,7 +32,7 @@ int main()
 //_________________________________________________________________________________________________________________________________________________________________
 
 
-// 2) Taking Input for 2 Arrays a[] and b[] and adding them both, where user can give the num -=-> no. of values to input in arrays.
+// 2) Taking Input for 2 Arrays a[] and b[] and adding them both, where user can give the num --> no. of values to input in arrays.
 
 #include<stdio.h>
 int main()
