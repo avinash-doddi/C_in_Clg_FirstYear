@@ -1,6 +1,6 @@
 //Programs using Arrays: (UNIT 3)
 
-// 1) Basic Array ( >> takes Input and prints out what the user has entered!!)
+// 1) Basic Array (>> takes Input and prints out what the user has entered!!)
 
 #include<stdio.h>
 int main()
