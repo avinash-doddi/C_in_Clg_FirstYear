@@ -74,7 +74,6 @@ switch(choice)
 
 //_________________________________________________________________________________________________________________________________________________________________
 
-
 /* Write a code to take input number and print *armstrong numbers* between 1 and input number*/
 
 #include<stdio.h>
@@ -107,5 +106,4 @@ int main()
     }
 return 0;
 }
-
 
