@@ -73,3 +73,36 @@ switch(choice)
 
 
 //_________________________________________________________________________________________________________________________________________________________________
+
+/* Write a code to take input number and print *armstrong numbers* between 1 and input number*/
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int num,tnum,temp,rem,count,result;
+    printf("Enter the number :");  scanf("%i",&num);
+    
+    result = 0; count = 0;
+    for (int i=1; i<=num; i++)
+    {
+         temp= i;  tnum=i; //here we use i cuz , we have to check every possibility, if we use num then it remains constant(input) throught the program.
+        while(temp!=0)
+        {
+           temp/=10;
+           count++;
+        }
+        while(tnum!=0)
+        {
+           rem = tnum%10;
+           result += pow(rem, count);
+           tnum/=10;
+        }
+        if (result==i)
+        {
+            printf("%i\n",result);
+        }
+        result = 0; count = 0;  //re-initialize after checkiing the possibility...
+    }
+return 0;
+}
