@@ -16,6 +16,7 @@ int main()
     }
   printf("\n");
  }
+ 
   for (int i = 0; i<num ; i++)
  {
    for (int j = 0; j<num ; j++)
