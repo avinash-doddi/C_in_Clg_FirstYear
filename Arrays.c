@@ -142,5 +142,73 @@ return 0;
 
 //_________________________________________________________________________________________________________________________________________________________________
 
-/*Run this*/
-print("\U0001F605")  //python though.. ;P
+// Multiplying 2 Matrices..
+
+#include<stdio.h>
+void main()
+{
+    int a[10][10],b[10][10],c[10][10],c1,r1,c2,r2;   int i,j,k;
+    printf("Enter col 1 :");  scanf("%i",&c1);      printf("Enter row 1 :");  scanf("%i",&r1);
+    printf("Enter col 2 :");  scanf("%i",&c2);      printf("Enter row 2 :");  scanf("%i",&r2);
+    for(i=0; i<r1; i++)  //to take input for a[10][10]
+    {
+        for(j=0; j<c1 ; j++)
+        {
+            printf("Enter value in a[%i][%i] :",i,j);   scanf("%d",&a[i][j]);  
+        }
+    }
+    for(i=0; i<r2; i++) //to take input for b[10][10]
+    {
+        for(j=0; j<c2 ; j++)
+        {
+            printf("Enter value in b[%i][%i] :",i,j);   scanf("%d",&b[i][j]);  
+        }
+    }
+    for(i=0; i<r1; i++)  //to take input for a[10][10]
+    {
+        for(j=0; j<c1 ; j++)
+        {
+            printf("%d\t",a[i][j]);   
+        }
+        printf("\n");
+    }
+    printf("_______________________________\n\n");
+    for(i=0; i<r2; i++) //to take print for b[10][10]
+    {
+        for(j=0; j<c2 ; j++)
+        {
+            printf("%d\t",b[i][j]); 
+        }
+        printf("\n");
+    }
+    printf("_______________________________________\n\n");
+    //to multiply both matrices...
+    if (c1==r2)
+    {
+        for(i=0; i<c1; i++) //to take print for b[10][10]
+    {
+        for(j=0; j<r1 ; j++)
+        {
+            c[i][j] = 0;
+            for(k=0; k<c1; k++)
+            {
+                c[i][j] += a[i][k]*b[k][j];
+            }
+        }
+    }
+        for(i=0; i<r1; i++)
+        {
+            for(j=0; j<c2; j++)
+            {
+                printf("%d\t",c[i][j]);
+            }
+            printf("\n");
+        }
+    }
+    else
+    {
+        printf("Matrix Multiplication is not possible");
+    }
+
+
+}
